@@ -9,26 +9,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <!-- Logo y Titulo -->
-        <img src="https://cdn-icons-png.flaticon.com/512/4229/4229052.png"
-            alt="logo" class="logo">
-    <h1>3D Fantasy</h1>
     <!-- Menu de navegacion -->
-        <nav class=".bg-info-subtle">
-            <ul>
-                <li><a href="../index.html">Inicio</a>
+    <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <img src="https://cdn-icons-png.flaticon.com/512/4229/4229052.png" alt="logo" class="logo">
+        <div class="collapse navbar-collapse" id="opciones ">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a>
                 </li>
-                <li><a href="./Sobre-nosotros.html">Sobre nosotros</a>
+                <li class="nav-item"><a class="nav-link" href="./Sobre-nosotros.html">Sobre nosotros</a>
                 </li>
-                <li><a href="./Productos-y-Servicios.html">Productos y Servicios</a>
+                <li class="nav-item"><a class="nav-link" href="./Productos-y-Servicios.html">Productos y Servicios</a>
                 </li>
-                <li><a href="./Multimedia.html">Multimedia</a>
+                <li class="nav-item"><a class="nav-link" href="./Multimedia.html">Multimedia</a>
                 </li>
-                <li><a href="./contacto.html">Contacto</a></li>
+                <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
             </ul>
-        </nav>
-    </header>
+        </div>
+        </header>
     <!-- Contenido Principal -->
     <main>
     <h2>¿Quieres contactarnos?</h2>
@@ -57,9 +59,9 @@
 </form>
 </main>
 <!-- Pie de Pagina -->
-<footer class="container">
+<footer class="container-fluid">
     <div class="row">
-    <div class="">
+        <div class="col">
         <p>
             © La empresa se reserva todos los derechos
         </p>
@@ -68,6 +70,7 @@
         <a href="#"><img src="../img/icons8-facebook-48.png" alt="Facebook"></a>
         <a href="#"><img src="../img/icons8-twitter-48.png" alt="Twitter"></a>
         <a href="#"><img src="../img/icons8-instagram-48.png" alt="Instagram"></a>
+        </div>
     </div>
 </div>
 </footer>
