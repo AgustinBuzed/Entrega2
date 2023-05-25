@@ -14,13 +14,15 @@
     <header>
         <!-- Menu de navegacion -->
         <nav class="navbar navbar-expand-md navbar-dark navbar-custom">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-nav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-nav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <img src="https://cdn-icons-png.flaticon.com/512/4229/4229052.png" alt="logo" class="logo">
-            <div class="collapse navbar-collapse" id="opciones ">
+            <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="./index.html"></a>
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a>
+                    </li>
                     <li class="nav-item"><a class="nav-link" href="./pages/Sobre-nosotros.html">Sobre nosotros</a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="./pages/Productos-y-Servicios.html">Productos y Servicios</a>
@@ -31,10 +33,11 @@
                     </li>
                 </ul>
             </div>
+        </nav>
     </header>
     </div>
     <!-- Contenido Principal -->
-    <main class="container">
+    <main class="container my-3">
     <section>
         <p>Hola, bienvenidos a 3D Fantasy, aca nos dedicaremos a ofrecer nuestros productos y servicios de la manera mas autentica, y novedosa para nuestros clientes. Garantizamos gran calidad en lo nuestro y siempre complaciendo a nuestros consumidores.</p>
     </section>
@@ -43,32 +46,32 @@
     <section class="row">
         <!-- Algunas imagenes ilustrativas -->
         <div class="col">
-            <img src="https://www.bbva.ch/wp-content/uploads/2021/10/17-.-Ventajas-y-desventajas-de-la-impresion-3D-1024x493.png" alt="impresora 3D" class="mb-4" height="280">
+            <img src="https://www.bbva.ch/wp-content/uploads/2021/10/17-.-Ventajas-y-desventajas-de-la-impresion-3D-1024x493.png" alt="impresora 3D" class="my-4" height="280">
         </div>
         <div class="col">
-            <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/MYVGQ5I3TRBVLH2XCMGF5QA5AQ.jpg" alt="impresora 3D" class="mb-4" height="280">
+            <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/MYVGQ5I3TRBVLH2XCMGF5QA5AQ.jpg" alt="impresora 3D" class="my-4" height="280">
         </div>
 
         <div class="col">
-            <img src="https://www.cocheglobal.com/uploads/s1/70/91/58/3/granja-de-impresoras-3d-de-bcn3d-en-castelldefels.jpeg" alt="granja de impresoras" height="300">
+            <img src="https://www.cocheglobal.com/uploads/s1/70/91/58/3/granja-de-impresoras-3d-de-bcn3d-en-castelldefels.jpeg" alt="granja de impresoras" class="my-4" height="300">
         </div>
         <div class="col">
-            <img  src="https://a3dnation.com/wp-content/uploads/2020/09/robot_impresion.jpg" alt="impresora-robot" class="mb-4" height="300">
+            <img  src="https://a3dnation.com/wp-content/uploads/2020/09/robot_impresion.jpg" alt="impresora-robot" class="my-4" height="300">
         </div>
     </section>
 </main>
     <!-- Pie de Pagina -->
-    <footer class="container">
-    <div>
-        <p>
-        © La empresa se reserva todos los derechos
-        </p>
-    </div>
-    <div>
-        <a href="#"><img src="./img/icons8-facebook-48.png" alt="Facebook"></a>
-        <a href="#"><img src="./img/icons8-twitter-48.png" alt="Twitter"></a>
-        <a href="#"><img src="./img/icons8-instagram-48.png" alt="Instagram"></a>
-    </div>
+    <footer class="container-fluid mt-5 container-custom">
+        <div>
+            <p class="container d-flex justify-content-center">
+                © La empresa se reserva todos los derechos
+            </p>
+        </div>
+        <div class="container d-flex justify-content-center">
+            <a href="#"><img src="../img/icons8-facebook-48.png" alt="Facebook"></a>
+            <a href="#"><img src="../img/icons8-twitter-48.png" alt="Twitter"></a>
+            <a href="#"><img src="../img/icons8-instagram-48.png" alt="Instagram"></a>
+        </div>
     </footer>
     </div>
 </body>

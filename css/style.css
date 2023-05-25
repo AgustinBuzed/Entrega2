@@ -4,6 +4,7 @@
 .navbar-custom{
     background-color: rgba(20, 64, 107, 0.952);
 }
-.exampleFormControlInput1{
-    color: aquamarine;
+.container-custom{
+    background-color: rgba(20, 64, 107, 0.897);
+    color: rgb(209, 212, 214);
 }
