@@ -1,0 +1,10 @@
+.logo{
+    width: 100px;
+}
+.navbar-custom{
+    background-color: rgba(20, 64, 107, 0.952);
+}
+.container-custom{
+    background-color: rgba(20, 64, 107, 0.897);
+    color: rgb(209, 212, 214);
+}
